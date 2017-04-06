@@ -4,6 +4,7 @@ const path = require('path');
 const app = express();
 
 app.use(express.static('node_modules/bootstrap/dist'));
+app.use(express.static('img'));
 app.use(express.static('./build'));
 
 
