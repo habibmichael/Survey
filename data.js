@@ -12,7 +12,7 @@ data =  [
     {
         title:'VueJs',
         img:'vue-logo.png',
-        'text':'Vue is a progressive framework for building user interfaces. Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only'
+        'text':'Vue is a progressive framework for building user interfaces. The core library is focused on the view layer only. Vue often times runs faster than React.'
     },
     {
         title:'BackboneJs',

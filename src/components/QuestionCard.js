@@ -16,6 +16,11 @@ const QuestionCard = (props) => {
         margin:0,
         padding:0
     }
+    const buttonStyle={
+        position:'absolute',
+        height:'30px',
+        marginBottom:'10px'
+    }
     return(
         <div>
             <Card
@@ -23,13 +28,13 @@ const QuestionCard = (props) => {
                 >
                 <CardMedia 
                     overlay={<CardTitle title={props.data.title}/>}>
-                    <img src={props.data.img} height={150} width={200}/>
+                    <img src={props.data.img} height={200} width={200}/>
                 </CardMedia> 
                 <CardText>
                     {props.data.text}
                 </CardText>
                 <CardActions>
-                    <RaisedButton label="Select" primary={true}/>
+                    <RaisedButton style={buttonStyle} label="Select" primary={true}/>
                 </CardActions>
             </Card>
         </div>
