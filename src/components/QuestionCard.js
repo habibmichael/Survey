@@ -23,7 +23,7 @@ const QuestionCard = (props) => {
                 >
                 <CardMedia 
                     overlay={<CardTitle title={props.data.title}/>}>
-                    <img src={props.data.img} height={150} width={250}/>
+                    <img src={props.data.img} height={150} width={200}/>
                 </CardMedia> 
                 <CardText>
                     {props.data.text}
